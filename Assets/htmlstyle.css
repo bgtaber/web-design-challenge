@@ -1,6 +1,5 @@
-/*.navbar {
-	background: #FAD7A0 ;
-	padding: 3px;
+.navabar div a {
+  font-weight:bold;
 }
 .navbar li  a {
     background: white;
@@ -9,51 +8,34 @@
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 3px;
-*/
-.navbar {
-    background: #D6D6D6;
-    padding: 3px;
 }
 
-.navbar li  a {
-    background: white;
-    display: inline-block;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 3px;
+body{
+    background-color: #E9FCF5;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder
 }
 
-.header {
-	font-size: 20px;
-	text-align: left;
-	padding: 10px;
-	background-color: navy;
-	color: white;
+h2{
+    font-size: 30px;
+    font-weight: bold;
 }
 
-h1 {
-  color:red;
-}
+h3{
+    font-weight: bold;
+    text-align: center;
+ }
 
-h2 {
-	color: navy;
+table, th, td {
+    border:darksalmon dotted 1px;
+    border-collapse: collapse;
+    padding: 15px;
 }
-
-h3 {
-  color: orange;
-}
-
-img {
-	box-shadow: 2px 2px 2px 2px orange;
-}
-
-/*.box {
-  height: 400px;
-  padding: 20px;
-  color: #fff;
-  background: deepskyblue;
-}*/
 
 .margin-top-80 {
   margin-top: 80px;
